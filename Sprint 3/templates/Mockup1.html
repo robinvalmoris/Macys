@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="SESION6.js"></script>
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='CSS/miestilo.css')}}" />
+</head>
+<body>
+  <nav>
+    <a href="#" class="nav-enlace" >Inicio</a>
+    <a href="#" class="nav-enlace" >Contáctenos</a>
+    <a href="#" class="nav-enlace" >Ayuda</a>
+    <a href="#" class="nav-enlace" >Carrito de compras</a>
+    <a href="#" class="nav-enlace" >Registro</a>
+    <a href="#" class="nav-enlace" >Login</a>
+</nav>
+  <body>
+    <h1>Login</h1>
+
+    <form
+      action=""
+      method="get"
+      name="formRegistro"
+      onSubmit="validar_formulario();">
+      <p>
+        Usuario:
+        <input type="text" id="username" name="username" />
+      </p>
+      <p>
+        Contraseña:
+        <input type="password" id="password" name="password" />
+      </p>
+      <p>
+        ¿Olvidó su contraseña?
+      </p>
+      <button type="submit" value="Ingresar">Ingresar</button>
+      <button type="register" value="registrarse">Registrarse</button>
+    </form>
+  </body>
+</body>
+</html>

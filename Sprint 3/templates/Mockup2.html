@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='CSS/miestilo.css')}}">
+</head>
+<body>
+    <nav>
+        <a href="#" class="nav-enlace" >Inicio</a>
+        <a href="#" class="nav-enlace" >Contáctenos</a>
+        <a href="#" class="nav-enlace" >Ayuda</a>
+        <a href="#" class="nav-enlace" >Carrito de compras</a>
+        <a href="#" class="nav-enlace" >Registro</a>
+        <a href="#" class="nav-enlace" >Login</a>
+    </nav>
+    <h1>Registro</h1> 
+    <form
+    action=""
+    method="get"
+    name="formRegistro"
+    onSubmit="validar_formulario();">
+    <p>
+    Nombres:
+    <input type="text" id="username" name="username" />
+    </p>
+    <p>
+    Apellidos:
+    <input type="text" id="lastname" name="lastname" />
+    </p>
+    <p>
+    Celular #1:
+    <input type="number" id="Phonenumber1" name="Phonenumber1" />
+    </p>
+    <p>
+    Celular #2:
+    <input type="number" id="Phonenumber2" name="Phonenumber2" />
+    </p>
+    <p>
+    Correo:
+    <input type="text" id="email" name="email" />
+    </p>
+    <p>
+    País:
+    <input type="text" id="country" name="country" />
+    </p>
+    <p>
+    Ciudad:
+    <input type="text" id="city" name="city" />
+    </p>
+    <p>
+    Dirección:
+    <input type="text" id="adress" name="adress" />
+    </p>
+    <p>
+    Información adicional:
+    <input type="text" id="aditional information" name="aditional information" />
+    </p>
+    <button type="Registrarse" value="Registrarse">Registrarse</button>
+
+</body>
+</html>
